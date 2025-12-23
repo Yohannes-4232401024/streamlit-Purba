@@ -1,6 +1,6 @@
 import streamlit as st 
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import numpy as np
 import datetime
 st.write(
@@ -49,10 +49,7 @@ st.json({
     'c1': [1, 2, 3, 4],
     'c2': [10, 20, 30, 40],
 })
-x = np.random.normal(15, 5, 250)
-fig, ax = plt.subplots()
-ax.hist(x=x, bins=15)
-st.pyplot(fig)
+
 name = st.text_input(label='Nama lengkap', value='')
 st.write('Nama: ', name)
 text = st.text_area('Feedback')
