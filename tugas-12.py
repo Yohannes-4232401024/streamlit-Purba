@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.write(
+    """
+    # Assignment 12
+    Hello Word, it is my Project Streamlit [Yohannes Paruntungan Purba & 4232401024]!
+    """
+)
 
 # Title
 st.title("Dashboard Visualisasi Data Mahasiswa")
