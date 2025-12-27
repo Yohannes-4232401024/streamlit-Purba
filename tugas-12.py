@@ -4,7 +4,7 @@ import pandas as pd
 st.write(
     """
     # Assignment 12
-    Hello Word, it is my Project Streamlit [Yohannes Paruntungan Purba & 4232401024]!
+    Hello Word, This is my Streamlit project [Yohannes Paruntungan Purba & 4232401024]!
     """
 )
 
